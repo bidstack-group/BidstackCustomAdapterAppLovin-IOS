@@ -1,0 +1,1 @@
+# BidstackCustomAdapterAppLovin-IOS
