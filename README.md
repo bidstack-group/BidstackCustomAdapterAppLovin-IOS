@@ -17,7 +17,7 @@ Required: iOS version 10+
 Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** provided by Bidstack.
 
 
-Before integrating the adapter you will need to set up the Bidstack network on your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/unreal/mediation-setup/custom-sdk#step-1.-add-custom-sdk-network-settings) and integrate the AppLovin SDK as documented [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/integration).
+Before integrating the adapter you will need to set up the Bidstack network on your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/ios/mediation-setup/custom-sdk) and integrate the AppLovin SDK as documented [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/integration).
 
 #### Configure AppLovin MAX account settings
 1. When prompted for `Network Type` choose `SDK`
