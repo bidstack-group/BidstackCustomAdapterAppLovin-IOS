@@ -215,7 +215,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Qk4zVg5GD3Ds/BDjcvzlxyGJXp8=
+		zeWfFkxrpxHPbzhfzgcKxLSwjjk=
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -227,7 +227,7 @@
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		O5O1DVwsCgNE3j0IB+0lRsjHvS0=
+		6NU4DU/kFqvGnxfZ7YB+lqHT1gg=
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		CUUfPncLUGxT2Ppxo3sEzM/rbPQ=
+		Etg/LVTQ6ujhtolxEcpWh6bmdGM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -743,11 +743,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O5O1DVwsCgNE3j0IB+0lRsjHvS0=
+			6NU4DU/kFqvGnxfZ7YB+lqHT1gg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkYBLAOBrv+vycZ5r1S994c/QJ6gvSrvHj3P7qKijas=
+			fT54zD3InD1roxjksTUZWcFOw6RJV2b59tl/TaHVB5Y=
 			</data>
 		</dict>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -776,11 +776,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CUUfPncLUGxT2Ppxo3sEzM/rbPQ=
+			Etg/LVTQ6ujhtolxEcpWh6bmdGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kQbNplAu9IsuZHNDqcMeN1WP2jOCZf158wJMEbJUHvw=
+			tGkOhqrAAiz/Je5YyNpuYRYKwtgkIfcHTZIURhkqpGM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
