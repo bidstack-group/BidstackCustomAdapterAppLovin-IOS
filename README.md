@@ -6,9 +6,9 @@ The adapter supports iOS 10 and up and AppLovinSDK 11.3.0 and up.
 
 ## Table of contents
 
-- [Prerequisites](#Prerequisites)
-- [Integration](#Integration)
-- [Supported versions](#Supported-versions)
+- [Prerequisites](#prerequisites)
+- [Integration](#integration)
+- [Supported versions](#supported-versions)
 
 ## Prerequisites
 
