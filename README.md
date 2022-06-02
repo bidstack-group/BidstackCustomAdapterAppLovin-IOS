@@ -12,7 +12,7 @@ The adapter supports iOS 11 and up and AppLovinSDK 11.3.0 and up.
 
 ## Prerequisites
 
-Required: iOS version 10+
+Required: iOS version 11+
 
 Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** provided by Bidstack.
 
@@ -44,7 +44,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into 
 Add to your podfile:
 `pod 'BidstackCustomAdapterAppLovin', '~> 1.4.0'`
 
-That's it! Now you can `pod install` from your Terminal and **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
+That's it! Now you can run `pod install` from your Terminal and **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 
 
 ### 2. Add xcframeworks manually
