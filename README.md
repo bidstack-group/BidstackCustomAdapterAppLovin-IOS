@@ -2,7 +2,7 @@
 
 The Bidstack AppLovin Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AppLovin.
 
-The adapter supports iOS 10 and up and AppLovinSDK 11.3.0 and up.
+The adapter supports iOS 11 and up and AppLovinSDK 11.3.0 and up.
 
 ## Table of contents
 
@@ -42,7 +42,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into 
 ### 1. Using cocoapods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAppLovin', '~> 1.1.0'`
+`pod 'BidstackCustomAdapterAppLovin', '~> 1.4.0'`
 
 That's it! Now you can `pod install` from your Terminal and **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 
@@ -91,6 +91,6 @@ Then make sure both framework Status is **Required**
 
 Supported **AppLovinSDK** versions: 11.3.0 and up
 
-Supported **iOS** versions: version 10+
+Supported **iOS** versions: version 11+
 
 
