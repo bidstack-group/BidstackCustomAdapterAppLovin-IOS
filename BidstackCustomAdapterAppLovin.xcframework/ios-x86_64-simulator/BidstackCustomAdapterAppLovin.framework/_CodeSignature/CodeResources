@@ -215,7 +215,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YCyhQsvmUEIPutBCFMa638a7IZg=
+		y2H6DkWnI4TSmXrkujB9yUTAbr8=
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -227,7 +227,7 @@
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/XVAI2ER9a+W+Ym82e0RpCZUgsw=
+		hMey64+a9dtPiASBsohnNdUV7wI=
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		/XVAI2ER9a+W+Ym82e0RpCZUgsw=
+		hMey64+a9dtPiASBsohnNdUV7wI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -571,7 +571,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dW9yvGtT1qLXqv25bnDDukkxwRJK3rUnnmuSZo1v85s=
+			SYqzc+2wHUgqQyRK6KgU4gLcP4bxeGH0RfPRxNcCRIA=
 			</data>
 		</dict>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64.swiftdoc</key>
@@ -592,7 +592,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dW9yvGtT1qLXqv25bnDDukkxwRJK3rUnnmuSZo1v85s=
+			SYqzc+2wHUgqQyRK6KgU4gLcP4bxeGH0RfPRxNcCRIA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -215,7 +215,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		N1ZVAp9Zgsz8STc9kObYG+c+AsE=
+		idjZHJYDIYvZGZ+AnLtaPmYMDQ4=
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -227,7 +227,7 @@
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uqy0yXQ7AK8cBOFZu3q79miz2WY=
+		DVeF1yOllhTz1kbS4SNjX2a9eXs=
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		uqy0yXQ7AK8cBOFZu3q79miz2WY=
+		DVeF1yOllhTz1kbS4SNjX2a9eXs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -571,7 +571,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGUNEpkDv847AM4Txck7EeIpZV83PYlcP813oPZ3SFA=
+			WLyyFe3TG70D0maLpYiyRpmeqBsvEy1gO/il97p1ECk=
 			</data>
 		</dict>
 		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64.swiftdoc</key>
@@ -592,7 +592,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGUNEpkDv847AM4Txck7EeIpZV83PYlcP813oPZ3SFA=
+			WLyyFe3TG70D0maLpYiyRpmeqBsvEy1gO/il97p1ECk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAppLovin"
-  spec.version      = "1.4.0"
+  spec.version      = "1.4.1"
   spec.summary      = "Bidstack Custom Adapter for AppLovin v11.3.0+"
 
   spec.description  = <<-DESC
@@ -25,5 +25,6 @@ Pod::Spec.new do |spec|
   
   spec.dependency 'AppLovinSDK', '~> 11'
   spec.dependency 'BidstackMobileAdsSDK', '~> 1.4.1'
- 	
+  spec.dependency 'DatadogSDK', '1.10.0'
+
 end
