@@ -42,7 +42,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into 
 ### 1. Using cocoapods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAppLovin', '~> 1.4.1'`
+`pod 'BidstackCustomAdapterAppLovin', '~> 1.5.0'`
 
 That's it! Now you can run `pod install` from your Terminal. **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 
