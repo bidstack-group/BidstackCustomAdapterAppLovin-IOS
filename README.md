@@ -1,8 +1,6 @@
 # Bidstack AppLovin Adapter iOS installation guide
 
-The Bidstack AppLovin Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AppLovin.
-
-The adapter supports iOS 11 and up and AppLovinSDK 11.3.0 and up.
+The Bidstack AppLovin Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AppLovin MAX Mediation.
 
 ## Table of contents
 
@@ -14,25 +12,54 @@ The adapter supports iOS 11 and up and AppLovinSDK 11.3.0 and up.
 
 Required: iOS version 11+
 
-Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** provided by Bidstack.
+Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** from [here](https://console.bidstack.com/developer/downloads) (Look for AppLovin MAX Adapter -> iOS).
 
 
-Before integrating the adapter you will need to set up the Bidstack network on your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/ios/mediation-setup/custom-sdk) and integrate the AppLovin SDK as documented [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/integration).
+Before integrating the adapter you will need to set up the Bidstack network on your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/unreal/mediation-setup/custom-sdk#step-1.-add-custom-sdk-network-settings) or follow the instruction  in the header [Configure AppLovin MAX account settings](#configure-applovin-max-account-settings) and integrate the AppLovin SDK as documented [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/integration).
 
 #### Configure AppLovin MAX account settings
-1. When prompted for `Network Type` choose `SDK`
-2. In `Custom Network Name` field enter `Bidstack`
-3. In `iOS Adapter Class Name` enter `AppLovinBidstackMediationAdapter`
+
+1. Login into MAX Dashboard and go to **MAX > Mediation > Manage > Networks**. Then select `Click here to add a Custom Network` at the bottom of the page.
+
+<img src="images/adding-custom-network.jpg" width="700"/>
+
+2. When prompted for `Network Type` choose `SDK`
+3. In `Custom Network Name` field enter `Bidstack Ads`
+4. In `iOS Adapter Class Name` enter `AppLovinBidstackMediationAdapter`
+
+<img src="images/custom-network.png" width="700"/>
+
+5. Then click on `Save`
 
 **Note**: You may need to wait several minutes until AppLovin SDK will recognize Bidstack Adapter.
 
+##### Configure app
+
 You will need to gather API key and ad unit ID's which can be obtained in [AdConsole](https://console.bidstack.com/auth/login).
 Once you have obtained the credentials, set them up in your AppLovin account as documented
-[here](https://dash.applovin.com/documentation/mediation/unreal/mediation-setup/custom-sdk#step-2.-enable-the-custom-sdk-network).
+[here](https://dash.applovin.com/documentation/mediation/ios/mediation-setup/custom-sdk).
 
-When prompted for `App Settings`:
-1. `App ID` is the API key you retrieved from AdConsole
-2. `Placement ID` is `Ad unit ID` you retrieved from AdConsole
+1. In MAX Dashboard go to **MAX > Mediation > Manage > Ad Units** select or create ad unit for which you want to add an adapter.
+
+<img src="images/ad-unit-selecting.png" width="700"/>
+
+2. At the bottom of the page expand Bidstack Custom Network and enable it. Here you will need to enter the API key and ad unit ID from the AdConsole. Also, you can manually specify the CPM Price to prioritize Bidstack Ads.
+3. `App ID` is the API key you retrieved from the AdConsole
+4. `Placement ID` is `Ad unit ID` you retrieved from the AdConsole
+
+<img src="images/adapter-settings.jpg" width="700"/>
+
+5. Login into your AdConsole account and add a new game or select existing
+
+<img src="images/selecting-game.jpg" width="700"/>
+
+6. From the navigation menu select `SDK control panel` and copy the API key. Paste this API key in the MAX dashboard
+
+<img src="images/adConsole-api-key.jpg" width="700"/>
+
+7. From the navigation menu select `Ad units`. And then create and copy ad unit id. Also, paste the ad unit id in the MAX dashboard
+
+<img src="images/adConsole-adUnit-id.jpg" width="700"/>
 
 
 ## Integration 
