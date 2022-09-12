@@ -85,7 +85,7 @@ First of all, double check if your Xcode project contains a **Frameworks** folde
 
 Drag and drop frameworks from Finder into the **Frameworks** folder. Make sure that the destination of drag is just under the **Frameworks** folder:
 
-<img src="images/drop-frameworks" width="700">
+<img src="images/drop-frameworks.png" width="700">
 
 Then, make sure the following options are selected for adding files. Both “Copy items if needed” and “Create groups” should be checked and selected. Click Finish.
 
