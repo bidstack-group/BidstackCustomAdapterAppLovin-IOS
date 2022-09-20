@@ -69,7 +69,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into 
 ### 1. Using cocoapods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAppLovin', '~> 1.5.0'`
+`pod 'BidstackCustomAdapterAppLovin', '~> 1.7.0'`
 
 That's it! Now you can run `pod install` from your Terminal. **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 
@@ -81,33 +81,31 @@ That's it! Now you can run `pod install` from your Terminal. **BidstackCustomAda
 First of all, double check if your Xcode project contains a **Frameworks** folder in project navigator. If it doesn’t, you have to create one. The **Frameworks** folder is not added by default in latest Xcode and it’s a good practice to keep your frameworks there.
 
 
-#### 2. Add **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** to Frameworks folder
+#### 2. Add **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **OMSDK_Bidstack.xcframework** to Frameworks folder
 
-Drag and drop both frameworks from Finder into the **Frameworks** folder. Make sure that the destination of drag is just under the **Frameworks** folder:
+Drag and drop frameworks from Finder into the **Frameworks** folder. Make sure that the destination of drag is just under the **Frameworks** folder:
 
-<img src="images/bcad-1.png" width="700">
-
-<img src="images/bcad-2.png" width="700">
+<img src="images/drop-frameworks.png" width="700">
 
 Then, make sure the following options are selected for adding files. Both “Copy items if needed” and “Create groups” should be checked and selected. Click Finish.
 
 <img src="images/bcad-3.png" width="500">
 
-#### 3. Embed **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** in project's target
+#### 3. Embed all frameworks in project's target
 
 In order to make sure that the framework will get copied to your app’s binary, follow these steps:
 
 1. Navigate to your project settings by clicking on it in the project navigator. 
 2. Make sure that your target is selected and General tab is open.
-3. Select “Embed & Sign” for your newly added **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework**
+3. Select “Embed & Sign” for your newly added **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **OMSDK_Bidstack.xcframework**
 
 ![](images/bcad-4.png)
 
-#### 4. ink **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** with your project
+#### 4. Link **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **OMSDK_Bidstack.xcframework** with your project
 
 Navigate to the Build Phases tab, disclose the “Link Binary With Libraries” list and make sure your framework is included in the list. It should already be included by default after following the steps above, however in case it’s not – click on the + button and add it.
 
-Then make sure both framework Status is **Required**
+Then make sure all framework Status is **Required**
 
 ![](images/bcad-5.png)
 
