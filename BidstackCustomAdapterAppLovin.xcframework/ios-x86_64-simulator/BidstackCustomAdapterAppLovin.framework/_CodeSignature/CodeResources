@@ -67,7 +67,7 @@
 		</dict>
 		<key>AppLovinSDKResources.bundle/Info.plist</key>
 		<data>
-		Nc7AOFib3PQvXnwLnrGN946kUOc=
+		jwWN8x48L8DYZLRIgnH31Hz60uc=
 		</data>
 		<key>AppLovinSDKResources.bundle/MAHybridNativeAdView.nib/objects-11.0+.nib</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/MANativeAdMediumTemplate1.nib</key>
 		<data>
-		ZfUW8bY4P5ZXjfQNQADvHXvh1Qw=
+		5p5rr5W1R1D3VpRI39+gbLLq/9o=
 		</data>
 		<key>AppLovinSDKResources.bundle/MANativeAdSmallTemplate1.nib</key>
 		<data>
@@ -213,45 +213,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/BidstackCustomAdapterAppLovin-Swift.h</key>
-		<data>
-		qviAzP6/0l0Fg3TPa/rEOz79o/4=
-		</data>
 		<key>Headers/BidstackCustomAdapterAppLovin.h</key>
 		<data>
-		m09EXEca4O0WBnEWxPIlETOPQik=
+		E2+rHw/7nz4OYy9sRV1mW4/unSk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sfMdd6nwtvDkgeyhUgU5rg1xECE=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		E4R1FtWgj7Pe+MJyGWlEqxY+HNk=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		AK7uMZvwIzDFws4II3Bn+O85u2A=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		l3EosYD2nvdu5E1EVpQIdklh5xw=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		q5/ot2xN4v7CJg87V/ZdR9mujlk=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		48GyFMsV5mfAZNEftHZwi+kSwT0=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		SGFWBBPwI4Xz6Q8SBNoWNEo44S8=
+		UtpIgeMAJImeFiQgZHsotCaIm3M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		/c8k5kzcFepwvKrUf1FZvfbQ5D8=
+		wFmJTEQIIlEE39CzOqnjPOsJytU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -416,11 +388,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nc7AOFib3PQvXnwLnrGN946kUOc=
+			jwWN8x48L8DYZLRIgnH31Hz60uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tnkar3SVnhuYIwkhAXZIvdNhwBCg7NtLP7cZMkOuVLE=
+			3KpisLdCNSYE3QJ4UJeIszMkwRgMB1w9ftOsVb0HJss=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/MAHybridNativeAdView.nib/objects-11.0+.nib</key>
@@ -537,11 +509,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZfUW8bY4P5ZXjfQNQADvHXvh1Qw=
+			5p5rr5W1R1D3VpRI39+gbLLq/9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ci17LIX2ErFQ0UGYQD41zZzKKQuNuoSeF5ygD9SY1po=
+			SvDU1pqq3KKZFGvx/UTohzWpAfgA2YllK2zNQNE31Xc=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/MANativeAdSmallTemplate1.nib</key>
@@ -725,103 +697,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/BidstackCustomAdapterAppLovin-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qviAzP6/0l0Fg3TPa/rEOz79o/4=
-			</data>
-			<key>hash2</key>
-			<data>
-			wCYOcPwjAhnaBvwbo6g36XVkHcW6VSQc7BdcED+SLPM=
-			</data>
-		</dict>
 		<key>Headers/BidstackCustomAdapterAppLovin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m09EXEca4O0WBnEWxPIlETOPQik=
+			E2+rHw/7nz4OYy9sRV1mW4/unSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			MHSSvprXxeYPKFYqYU4zWyoSt2USrbVtY7jxIJVQifg=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E4R1FtWgj7Pe+MJyGWlEqxY+HNk=
-			</data>
-			<key>hash2</key>
-			<data>
-			4Rs0Yqfhm0j5tH5B7wzwbKPKJDZ3YrbwvkeiZmgODLs=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AK7uMZvwIzDFws4II3Bn+O85u2A=
-			</data>
-			<key>hash2</key>
-			<data>
-			zRlNVn1aeMJ90GIzDmy3en999TLzqGPpJZQqs1Xm6yo=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l3EosYD2nvdu5E1EVpQIdklh5xw=
-			</data>
-			<key>hash2</key>
-			<data>
-			9VaXfnctijNsqNog51P4I5ZpJInJe48eG+2X7JUecFs=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q5/ot2xN4v7CJg87V/ZdR9mujlk=
-			</data>
-			<key>hash2</key>
-			<data>
-			0Bia5Qf+coFmWSH8OkU7LwGUwuyC2hdH0IbVrgSoemA=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			48GyFMsV5mfAZNEftHZwi+kSwT0=
-			</data>
-			<key>hash2</key>
-			<data>
-			oKe8BiUXrSgCf/AzHBMgUTgISAdDgz4dgho2S+l36i4=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SGFWBBPwI4Xz6Q8SBNoWNEo44S8=
-			</data>
-			<key>hash2</key>
-			<data>
-			2o4QNppnE2BD15e47UCvTfj7JU0NBSaozLf/OIIZH6s=
+			l07UYgwWhMlfoEQUuQadaXQPxGNguhdy1iWuZiWrdkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/c8k5kzcFepwvKrUf1FZvfbQ5D8=
+			wFmJTEQIIlEE39CzOqnjPOsJytU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ll7HBL88m8QvYXCeMLxClyWrcr+Z/HwEqFVGbyajw5s=
+			kIUYlgUuoFM/QS4EUnbEzYbpqeoDy4ua8CrvjhtR3lg=
 			</data>
 		</dict>
 	</dict>

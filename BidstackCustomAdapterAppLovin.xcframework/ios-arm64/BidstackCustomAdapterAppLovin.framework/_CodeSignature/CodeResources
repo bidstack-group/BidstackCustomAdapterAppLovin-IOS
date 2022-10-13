@@ -67,7 +67,7 @@
 		</dict>
 		<key>AppLovinSDKResources.bundle/Info.plist</key>
 		<data>
-		Nc7AOFib3PQvXnwLnrGN946kUOc=
+		jwWN8x48L8DYZLRIgnH31Hz60uc=
 		</data>
 		<key>AppLovinSDKResources.bundle/MAHybridNativeAdView.nib/objects-11.0+.nib</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/MANativeAdMediumTemplate1.nib</key>
 		<data>
-		ZfUW8bY4P5ZXjfQNQADvHXvh1Qw=
+		5p5rr5W1R1D3VpRI39+gbLLq/9o=
 		</data>
 		<key>AppLovinSDKResources.bundle/MANativeAdSmallTemplate1.nib</key>
 		<data>
@@ -213,33 +213,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/BidstackCustomAdapterAppLovin-Swift.h</key>
-		<data>
-		5F+fyI3/TmSdxrnrJev1PD5HCVk=
-		</data>
 		<key>Headers/BidstackCustomAdapterAppLovin.h</key>
 		<data>
-		m09EXEca4O0WBnEWxPIlETOPQik=
+		E2+rHw/7nz4OYy9sRV1mW4/unSk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SW9kfGzW2gyyTfVNdGGl2PaauLM=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		QJHOY07uJ66FCSMbulquYuAdV+c=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		4vNZguYy3T0KPbTNG0tChxReoTk=
-		</data>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		WvYk4G5Z8UtNFPRMwXUchQ00PX0=
+		/YULK+s2JiTPpyZjTFQ4Ui00FFI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		/c8k5kzcFepwvKrUf1FZvfbQ5D8=
+		wFmJTEQIIlEE39CzOqnjPOsJytU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -404,11 +388,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nc7AOFib3PQvXnwLnrGN946kUOc=
+			jwWN8x48L8DYZLRIgnH31Hz60uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tnkar3SVnhuYIwkhAXZIvdNhwBCg7NtLP7cZMkOuVLE=
+			3KpisLdCNSYE3QJ4UJeIszMkwRgMB1w9ftOsVb0HJss=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/MAHybridNativeAdView.nib/objects-11.0+.nib</key>
@@ -525,11 +509,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZfUW8bY4P5ZXjfQNQADvHXvh1Qw=
+			5p5rr5W1R1D3VpRI39+gbLLq/9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ci17LIX2ErFQ0UGYQD41zZzKKQuNuoSeF5ygD9SY1po=
+			SvDU1pqq3KKZFGvx/UTohzWpAfgA2YllK2zNQNE31Xc=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/MANativeAdSmallTemplate1.nib</key>
@@ -713,70 +697,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/BidstackCustomAdapterAppLovin-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5F+fyI3/TmSdxrnrJev1PD5HCVk=
-			</data>
-			<key>hash2</key>
-			<data>
-			ml+P3D4T7mPeydUU4cAp0z44pDUP3ZxI1rXqXtVNUg0=
-			</data>
-		</dict>
 		<key>Headers/BidstackCustomAdapterAppLovin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m09EXEca4O0WBnEWxPIlETOPQik=
+			E2+rHw/7nz4OYy9sRV1mW4/unSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			MHSSvprXxeYPKFYqYU4zWyoSt2USrbVtY7jxIJVQifg=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QJHOY07uJ66FCSMbulquYuAdV+c=
-			</data>
-			<key>hash2</key>
-			<data>
-			SDvwW3/69gMNbFU0aehXQ6z+Djm07ge5YiqMO9/xz7s=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4vNZguYy3T0KPbTNG0tChxReoTk=
-			</data>
-			<key>hash2</key>
-			<data>
-			NoxrnP56r59tAQikeZx2Ep6l6xoDAo2Q8s53ZX8FqzY=
-			</data>
-		</dict>
-		<key>Modules/BidstackCustomAdapterAppLovin.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WvYk4G5Z8UtNFPRMwXUchQ00PX0=
-			</data>
-			<key>hash2</key>
-			<data>
-			hF8M/OlmYIML29hZAOoLmVaA4GhkeHIHiCe+AxebAg4=
+			l07UYgwWhMlfoEQUuQadaXQPxGNguhdy1iWuZiWrdkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/c8k5kzcFepwvKrUf1FZvfbQ5D8=
+			wFmJTEQIIlEE39CzOqnjPOsJytU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ll7HBL88m8QvYXCeMLxClyWrcr+Z/HwEqFVGbyajw5s=
+			kIUYlgUuoFM/QS4EUnbEzYbpqeoDy4ua8CrvjhtR3lg=
 			</data>
 		</dict>
 	</dict>

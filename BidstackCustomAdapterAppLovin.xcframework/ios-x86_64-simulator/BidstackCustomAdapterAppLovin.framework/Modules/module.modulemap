@@ -4,8 +4,3 @@ framework module BidstackCustomAdapterAppLovin {
   export *
   module * { export * }
 }
-
-module BidstackCustomAdapterAppLovin.Swift {
-    header "BidstackCustomAdapterAppLovin-Swift.h"
-    requires objc
-}

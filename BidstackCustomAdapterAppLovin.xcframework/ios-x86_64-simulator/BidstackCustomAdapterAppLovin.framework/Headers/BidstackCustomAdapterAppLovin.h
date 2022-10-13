@@ -2,8 +2,7 @@
 //  BidstackCustomAdapterAppLovin.h
 //  BidstackCustomAdapterAppLovin
 //
-//  Created by Aleksejs Volkovs on 27/09/2022.
+//  Created by Liene Ungure on 08/06/2022.
 //
 
 #import <Foundation/Foundation.h>
-
