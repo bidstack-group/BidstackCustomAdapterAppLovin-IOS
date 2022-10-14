@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "BidstackCustomAdapterAppLovin.xcframework"
   
   spec.dependency 'AppLovinSDK', '~> 11'
-  spec.dependency 'BidstackMobileAdsSDK', '~> 1.8.0'
+  spec.dependency 'BidstackMobileAdsSDK', '~> 1.8.0.1'
 
 end
