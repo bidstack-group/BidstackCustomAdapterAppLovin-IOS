@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAppLovin"
-  spec.version      = "1.8.0"
+  spec.version      = "1.8.0.1"
   spec.summary      = "Bidstack Custom Adapter for AppLovin v11.3.0+"
 
   spec.description  = <<-DESC
