@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAppLovin"
-  spec.version      = "1.8.2"
-  spec.summary      = "Bidstack Custom Adapter for AppLovin v11.3.0+"
+  spec.version      = "1.8.3"
+  spec.summary      = "Bidstack Custom Adapter for AppLovin v11.4.0+"
 
   spec.description  = <<-DESC
 			  The Bidstack AppLovin Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AppLovin.
@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "BidstackCustomAdapterAppLovin.xcframework"
   
   spec.dependency 'AppLovinSDK', '~> 11'
-  spec.dependency 'BidstackMobileAdsSDK', '~> 1.8.2'
+  spec.dependency 'BidstackMobileAdsSDK', '~> 1.8.3'
 
 end
