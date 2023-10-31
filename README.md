@@ -1,119 +1,130 @@
-# Bidstack AppLovin Adapter iOS installation guide
+# Bidstack AppLovin Adapter Installation Guide for iOS
 
-The Bidstack AppLovin Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AppLovin MAX Mediation.
+The Bidstack AppLovin Adapter for iOS allows you to display Interstitial and Rewarded ads in your app through AppLovin.
 
 ## Table of contents
 
-- [Prerequisites](#prerequisites)
-- [Integration](#integration)
-- [Supported versions](#supported-versions)
+* [Prerequisites](#prerequisites)
+   * [Configuring adapter in the AppLovin dashboard](#configuring-adapter-in-the-applovin-dashboard)
+   * [Configuring ad units](#configuring-ad-units)
+* [Integration](#integration)
+   * [Using CocoaPods](#using-cocoapods)
+   * [Adding xcframeworks manually](#adding-xcframeworks-manually)
+* [Privacy](#privacy)
+* [Supported versions](#supported-versions)
 
 ## Prerequisites
 
-Required: iOS version 11+
+**Required:** iOS version 12+
 
-Required: If you're planning to integrate adapter manually, then you need to download **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** from [here](https://console.bidstack.com/developer/downloads) (Look for AppLovin MAX Adapter -> iOS).
+**Required:** If you're planning to integrate adapter manually, then you need to [download](https://console.bidstack.com/developer/downloads) **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **BidstackMobileAdsSDKResources.bundle** provided by Bidstack.
 
+Before integrating the adapter, you will need to set up the Bidstack network on your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/ios/mediation-setup/custom-sdk#step-1.-add-custom-sdk-network-settings) or follow the instructions in the header [Configuring adapter in the AppLovin dashboard](#configuring-adapter-in-the-applovin-dashboard) and integrate the AppLovin SDK as documented [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/integration).
+<div class="page-break"></div>
 
-Before integrating the adapter you will need to set up the Bidstack network on your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/unreal/mediation-setup/custom-sdk#step-1.-add-custom-sdk-network-settings) or follow the instruction  in the header [Configure AppLovin MAX account settings](#configure-applovin-max-account-settings) and integrate the AppLovin SDK as documented [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/integration).
+### Configuring adapter in the AppLovin dashboard
 
-#### Configure AppLovin MAX account settings
+1. Login into MAX Dashboard and go to **MAX > Mediation > Manage > Networks**. Then select **Click here to add a Custom Network** at the bottom of the page.
 
-1. Login into MAX Dashboard and go to **MAX > Mediation > Manage > Networks**. Then select `Click here to add a Custom Network` at the bottom of the page.
+    <img src="images/adding-custom-network.jpg" width="550"/>
 
-<img src="images/adding-custom-network.jpg" width="700"/>
+2. When prompted for **Network Type**, choose **SDK**
+3. In the **Custom Network Name** field, enter **Bidstack Ads**
+4. In the **iOS Adapter Class Name** field, enter **AppLovinBidstackMediationAdapter**
 
-2. When prompted for `Network Type` choose `SDK`
-3. In `Custom Network Name` field enter `Bidstack Ads`
-4. In `iOS Adapter Class Name` enter `AppLovinBidstackMediationAdapter`
+    <img src="images/custom-network.jpg" width="550"/>
 
-<img src="images/custom-network.png" width="700"/>
+5. Then click on **Save**
 
-5. Then click on `Save`
+**Note**, You may need to wait several minutes until AppLovin SDK will recognize Bidstack Adapter.
 
-**Note**: You may need to wait several minutes until AppLovin SDK will recognize Bidstack Adapter.
+### Configuring ad units
 
-##### Configure app
+You will need to gather the API key and ad unit IDs, which can be obtained in [AdConsole](https://console.bidstack.com/auth/login).
+Once you have obtained the credentials, set them up in your AppLovin account as documented [here](https://dash.applovin.com/documentation/mediation/unreal/mediation-setup/custom-sdk#step-2.-enable-the-custom-sdk-network).
 
-You will need to gather API key and ad unit ID's which can be obtained in [AdConsole](https://console.bidstack.com/auth/login).
-Once you have obtained the credentials, set them up in your AppLovin account as documented
-[here](https://dash.applovin.com/documentation/mediation/ios/mediation-setup/custom-sdk).
+1. In the MAX Dashboard, go to **MAX > Mediation > Manage > Ad Units**, select or create an ad unit for which you want to add an adapter.
 
-1. In MAX Dashboard go to **MAX > Mediation > Manage > Ad Units** select or create ad unit for which you want to add an adapter.
+    <img src="images/ad-unit-selecting.jpg" width="600"/>
 
-<img src="images/ad-unit-selecting.png" width="700"/>
+2. At the bottom of the page, expand Bidstack Custom Network and enable it. Here you will need to enter the API key and ad unit ID from the AdConsole. Also, you can manually specify the CPM Price to prioritize Bidstack Ads.
+3. **App ID** is the API key you will retrieve from the AdConsole
+4. **Placement ID** is the ad unit name you will retrieve from the AdConsole
 
-2. At the bottom of the page expand Bidstack Custom Network and enable it. Here you will need to enter the API key and ad unit ID from the AdConsole. Also, you can manually specify the CPM Price to prioritize Bidstack Ads.
-3. `App ID` is the API key you retrieved from the AdConsole
-4. `Placement ID` is `Ad unit ID` you retrieved from the AdConsole
-
-<img src="images/adapter-settings.jpg" width="700"/>
+    <img src="images/adapter-settings.jpg" width="600"/>
+    <div class="page-break"></div>
 
 5. Login into your AdConsole account and add a new game or select existing
 
-<img src="images/selecting-game.jpg" width="700"/>
+    <img src="images/selecting-game.jpg" width="600"/>
 
-6. From the navigation menu select `SDK control panel` and copy the API key. Paste this API key in the MAX dashboard
+6. From the navigation menu, select **SDK control panel** and copy the API key. Paste this API key in the MAX dashboard
 
-<img src="images/adConsole-api-key.jpg" width="700"/>
+    <img src="images/adConsole-api-key.jpg" width="600"/>
+    </p>
 
-7. From the navigation menu select `Ad units`. And then create and copy ad unit id. Also, paste the ad unit id in the MAX dashboard
+7. From the navigation menu, select **Ad units**. And then create and copy the ad unit name. Also, paste the ad unit name in the MAX dashboard
 
-<img src="images/adConsole-adUnit-id.jpg" width="700"/>
-
+    <img src="images/adConsole-adUnit-id.jpg" width="600"/>
+    <div class="page-break"></div>
 
 ## Integration 
 
-There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into your project - using cocoapods or adding xcframeworks manually. 
+There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into your project - using CocoaPods or adding xcframeworks manually. 
 
-### 1. Using cocoapods
+### Using CocoaPods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAppLovin', '~> 1.8.3'`
+`pod 'BidstackCustomAdapterAppLovin', '~> 2.2.0'`
 
-That's it! Now you can run `pod install` from your Terminal. **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
+That's it! Now you can `pod install` from your Terminal and **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 
-
-### 2. Add xcframeworks manually
+### Adding xcframeworks manually
 
 #### 1. Create **Frameworks** folder
 
-First of all, double check if your Xcode project contains a **Frameworks** folder in project navigator. If it doesn’t, you have to create one. The **Frameworks** folder is not added by default in latest Xcode and it’s a good practice to keep your frameworks there.
+Firstly, double-check if your Xcode project contains a **Frameworks** folder in the project navigator. If it doesn’t, just like in the screenshot below, then you’ll have to create one. The Frameworks folder is not added by default in latest Xcode, and it’s a good practice to keep your frameworks there.
 
+<img src="images/bcad-1.jpg" width="200"/>
 
-#### 2. Add **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **OMSDK_Bidstack.xcframework** to Frameworks folder
+Right-click on your project in the project navigator (top-most entry) and select **New Group**. Name the new group **Frameworks**.
 
-Drag and drop frameworks from Finder into the **Frameworks** folder. Make sure that the destination of drag is just under the **Frameworks** folder:
+<img src="images/bcad-2.jpg" width="200"/>
+<img src="images/bcad-3.jpg" width="200"/>
+<div class="page-break"></div>
 
-<img src="images/drop-frameworks.png" width="700">
+#### 2. Add BidstackCustomAdapterAppLovin.xcframework, BidstackMobileAdsSDK.xcframework and BidstackMobileAdsSDKResources.bundle to the Frameworks folder
 
-Then, make sure the following options are selected for adding files. Both “Copy items if needed” and “Create groups” should be checked and selected. Click Finish.
+With the **Frameworks** folder selected, click on **File -> Add Files** to “Your Project”
 
-<img src="images/bcad-3.png" width="500">
+<img src="images/bcad-4.jpg" width="200"/>
 
-#### 3. Embed all frameworks in project's target
+Find the **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **BidstackMobileAdsSDKResources.bundle** in the file navigator, select it, make sure “Copy items if needed” and “Create groups” are selected and click **Add**:
 
-In order to make sure that the framework will get copied to your app’s binary, follow these steps:
+<img src="images/bcad-5.jpg" width="600"/>
+<div class="page-break"></div>
 
-1. Navigate to your project settings by clicking on it in the project navigator. 
-2. Make sure that your target is selected and General tab is open.
-3. Select “Embed & Sign” for your newly added **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **OMSDK_Bidstack.xcframework**
+#### 3. Verify that frameworks were added correctly by following these steps:
 
-![](images/bcad-4.png)
+1. Navigate to your project settings by clicking on it in the project navigator.
+2. Select your target and open the **General** tab.
+3. Make sure that **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** have **Do Not Embed** selected.
 
-#### 4. Link **BidstackCustomAdapterAppLovin.xcframework**, **BidstackMobileAdsSDK.xcframework** and **OMSDK_Bidstack.xcframework** with your project
+    <img src="images/bcad-6.jpg" width="600">
+    <div class="page-break"></div>
 
-Navigate to the Build Phases tab, disclose the “Link Binary With Libraries” list and make sure your framework is included in the list. It should already be included by default after following the steps above, however in case it’s not – click on the + button and add it.
+4. Navigate to the **Build Phases** tab and open the **Copy Bundle Resources** section
+5. Assure that **BidstackMobileAdsSDKResources.bundle** is added
 
-Then make sure all framework Status is **Required**
+    <img src="images/bcad-7.jpg" width="600"/>
 
-![](images/bcad-5.png)
+The **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** are now fully added and integrated with your Xcode project. No additional setup is needed.
 
+## Privacy
 
-The **BidstackCustomAdapterAppLovin.xcframework** and **BidstackMobileAdsSDK.xcframework** is now fully added and integrated with your Xcode project. No additional setup is needed.
+Bidstack adapter supports reading privacy flags set in AppLovin SDK (Has User Consent, Age Restricted User, "Do Not Sell" flags). More info [here](https://dash.applovin.com/documentation/mediation/ios/getting-started/privacy).
 
 ## Supported versions
 
-Supported **AppLovinSDK** versions: 11.3.0 and up
-
-Supported **iOS** versions: version 11+
+* iOS 12 and up 
+* AppLovinSDK 11.4.0 and up
