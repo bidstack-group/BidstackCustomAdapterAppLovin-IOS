@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BidstackCustomAdapterAppLovin"
-  spec.version      = "1.9.1"
+  spec.version      = "2.2.0"
   spec.summary      = "Bidstack Custom Adapter for AppLovin v11.4.0+"
 
   spec.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.preserve_path = "README.md"
 
   spec.author       = "Bidstack Limited"
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   spec.swift_version = '5.0'
     
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
@@ -23,8 +23,8 @@ Pod::Spec.new do |spec|
   
   spec.vendored_frameworks = "BidstackCustomAdapterAppLovin.xcframework"
   
-  spec.dependency 'AppLovinSDK', '~> 11.7'
-  spec.dependency 'BidstackMobileAdsSDK', '~> 1.9.1'
+  spec.dependency 'AppLovinSDK', '~> 11.11'
+  spec.dependency 'BidstackMobileAdsSDK', '~> 2.2.0'
   
 
 end

@@ -1,6 +1,6 @@
 framework module BidstackCustomAdapterAppLovin {
   umbrella header "BidstackCustomAdapterAppLovin.h"
-
   export *
+
   module * { export * }
 }
