@@ -75,7 +75,7 @@ There are two ways how you can integrate **BidstackCustomAdapterAppLovin** into 
 ### Using CocoaPods
 
 Add to your podfile:
-`pod 'BidstackCustomAdapterAppLovin', '~> 2.2.0'`
+`pod 'BidstackCustomAdapterAppLovin', '~> 2.3.0'`
 
 That's it! Now you can `pod install` from your Terminal and **BidstackCustomAdapterAppLovin** and **BidstackMobileAdsSDK** will be installed automatically. No additional steps needed.
 
@@ -127,4 +127,4 @@ Bidstack adapter supports reading privacy flags set in AppLovin SDK (Has User Co
 ## Supported versions
 
 * iOS 12 and up 
-* AppLovinSDK 11.4.0 and up
+* AppLovinSDK 12.3.0 and up
